@@ -1,0 +1,7 @@
+# Copyright (c) 2023 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config ZMK_CHARACTER_MAP
+    bool
+    default y
+    depends on DT_HAS_ZMK_CHARACTER_MAP_ENABLED
