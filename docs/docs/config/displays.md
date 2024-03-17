@@ -51,14 +51,26 @@ You must also configure the driver for your display. ZMK provides the following 
 
 - [IL0323](https://github.com/zmkfirmware/zmk/blob/main/app/module/drivers/display/Kconfig.il0323)
 
+<<<<<<< HEAD
 Zephyr provides several display drivers as well. Search for the name of your display in [Zephyr's Kconfig options](https://docs.zephyrproject.org/3.5.0/kconfig.html) documentation.
+=======
+Zephyr provides several display drivers as well. Search for the name of your display in [Zephyr's Kconfig options](https://docs.zephyrproject.org/3.2.0/kconfig.html) documentation.
+>>>>>>> send-string-behavior/send-string-behavior
 
 ## Devicetree
 
 See the Devicetree bindings for your display. Here are the bindings for common displays:
 
+<<<<<<< HEAD
 - [IL0323](https://github.com/zmkfirmware/zmk/blob/main/app/module/dts/bindings/display/gooddisplay%2Cil0323.yaml)
 - [SSD1306 (i2c)](https://docs.zephyrproject.org/3.5.0/build/dts/api/bindings/display/solomon,ssd1306fb-i2c.html)
 - [SSD1306 (spi)](https://docs.zephyrproject.org/3.5.0/build/dts/api/bindings/display/solomon,ssd1306fb-spi.html)
 
 A full list of drivers provided by Zephyr can be found in [Zephyr's Devicetree bindings index](https://docs.zephyrproject.org/3.5.0/build/dts/api/bindings.html).
+=======
+- [IL0323](https://github.com/zmkfirmware/zmk/blob/main/app/dts/bindings/display/gooddisplay%2Cil0323.yaml)
+- [SSD1306 (i2c)](https://docs.zephyrproject.org/3.2.0/build/dts/api/bindings/display/solomon,ssd1306fb-i2c.html)
+- [SSD1306 (spi)](https://docs.zephyrproject.org/3.2.0/build/dts/api/bindings/display/solomon,ssd1306fb-spi.html)
+
+A full list of drivers provided by Zephyr can be found in [Zephyr's Devicetree bindings index](https://docs.zephyrproject.org/3.2.0/build/dts/api/bindings.html).
+>>>>>>> send-string-behavior/send-string-behavior

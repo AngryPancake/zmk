@@ -41,7 +41,11 @@ Host support for multiple battery levels is undefined. It appears that in most o
 
 ### Devicetree
 
+<<<<<<< HEAD
 Applies to: [`/chosen` node](https://docs.zephyrproject.org/3.5.0/build/dts/intro-syntax-structure.html#aliases-and-chosen-nodes)
+=======
+Applies to: [`/chosen` node](https://docs.zephyrproject.org/3.2.0/guides/dts/intro.html#aliases-and-chosen-nodes)
+>>>>>>> send-string-behavior/send-string-behavior
 
 | Property      | Type | Description                                   |
 | ------------- | ---- | --------------------------------------------- |
@@ -55,7 +59,11 @@ Driver for reading the voltage of a battery using an ADC connected to a voltage 
 
 Applies to: `compatible = "zmk,battery-voltage-divider"`
 
+<<<<<<< HEAD
 See [Zephyr's voltage divider documentation](https://docs.zephyrproject.org/3.5.0/build/dts/api/bindings/iio/afe/voltage-divider.html).
+=======
+See [Zephyr's voltage divider documentation](https://docs.zephyrproject.org/3.2.0/build/dts/api/bindings/adc/voltage-divider.html).
+>>>>>>> send-string-behavior/send-string-behavior
 
 ## nRF VDDH Battery Sensor
 

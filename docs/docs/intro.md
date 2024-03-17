@@ -41,7 +41,11 @@ ZMK is currently missing some features found in other popular firmware. This tab
 | Shell over BLE                                                                                                                     | 💡  |           |     |
 | Realtime Keymap Updating                                                                                                           | 💡  |           | ✅  |
 | AVR/8 Bit                                                                                                                          |     |           | ✅  |
+<<<<<<< HEAD
 | [Wide Range of ARM Chips Supported](https://docs.zephyrproject.org/3.5.0/boards/index.html)                                        | ✅  |           |     |
+=======
+| [Wide Range of ARM Chips Supported](https://docs.zephyrproject.org/3.2.0/boards/index.html)                                        | ✅  |           |     |
+>>>>>>> send-string-behavior/send-string-behavior
 
 [^2]: Tap-Dances are limited to single and double-tap on BlueMicro
 [^1]: OLEDs are currently proof of concept in ZMK.

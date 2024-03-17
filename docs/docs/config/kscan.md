@@ -25,7 +25,11 @@ If the debounce press/release values are set to any value other than `-1`, they 
 
 ### Devicetree
 
+<<<<<<< HEAD
 Applies to: [`/chosen` node](https://docs.zephyrproject.org/3.5.0/build/dts/intro-syntax-structure.html#aliases-and-chosen-nodes)
+=======
+Applies to: [`/chosen` node](https://docs.zephyrproject.org/3.2.0/guides/dts/intro.html#aliases-and-chosen-nodes)
+>>>>>>> send-string-behavior/send-string-behavior
 
 | Property               | Type | Description                                                   |
 | ---------------------- | ---- | ------------------------------------------------------------- |

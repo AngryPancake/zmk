@@ -26,7 +26,11 @@ The `*_START` settings only determine the initial backlight state. Any changes y
 
 ## Devicetree
 
+<<<<<<< HEAD
 Applies to: [`/chosen` node](https://docs.zephyrproject.org/3.5.0/build/dts/intro-syntax-structure.html#aliases-and-chosen-nodes)
+=======
+Applies to: [`/chosen` node](https://docs.zephyrproject.org/3.2.0/guides/dts/intro.html#aliases-and-chosen-nodes)
+>>>>>>> send-string-behavior/send-string-behavior
 
 | Property        | Type | Description                                  |
 | --------------- | ---- | -------------------------------------------- |
@@ -34,7 +38,12 @@ Applies to: [`/chosen` node](https://docs.zephyrproject.org/3.5.0/build/dts/intr
 
 See the Zephyr devicetree bindings for LED drivers:
 
+<<<<<<< HEAD
 - [gpio-leds](https://docs.zephyrproject.org/3.5.0/build/dts/api/bindings/led/gpio-leds.html)
 - [pwm-leds](https://docs.zephyrproject.org/3.5.0/build/dts/api/bindings/led/pwm-leds.html)
+=======
+- [gpio-leds](https://docs.zephyrproject.org/3.2.0/build/dts/api/bindings/led/gpio-leds.html)
+- [pwm-leds](https://docs.zephyrproject.org/3.2.0/build/dts/api/bindings/led/pwm-leds.html)
+>>>>>>> send-string-behavior/send-string-behavior
 
 See the [backlight feature page](../features/backlight.mdx) for examples of the properties that must be set to enable backlighting.
