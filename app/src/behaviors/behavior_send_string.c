@@ -3,7 +3,6 @@
  *
  * SPDX-License-Identifier: MIT
  */
-// #pragma once
 
 #define DT_DRV_COMPAT zmk_behavior_send_string
 
@@ -48,7 +47,7 @@ static int behavior_send_string_init(const struct device *dev) { return 0; }
         .text = DT_INST_PROP(n, text),                                                             \
         .config = ZMK_SEND_STRING_CONFIG_DT_INST_PROP(n),                                          \
     };                                                                                             \
-    DEVICE_DT_INST_DEFINE(n, behavior_send_string_init, NULL, NULL,                                \
+    BEHAVIOR_DT_INST_DEFINE(n, behavior_send_string_init, NULL, NULL,                                \
                           &behavior_send_string_config_##n, APPLICATION,                           \
                           CONFIG_KERNEL_INIT_PRIORITY_DEFAULT, &behavior_send_string_driver_api);
 
