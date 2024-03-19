@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
+// #pragma once
 
 #define DT_DRV_COMPAT zmk_behavior_send_string
 

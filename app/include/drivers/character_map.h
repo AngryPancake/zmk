@@ -11,6 +11,7 @@
 #include <zephyr/toolchain/common.h>
 #include <zmk/behavior.h>
 
+#define 	ENOTSUP   134
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -52,8 +53,9 @@ static inline int z_impl_character_map_codepoint_to_binding(const struct device 
         (const struct character_map_driver_api *)charmap->api;
 
     if (api->codepoint_to_binding == NULL) {
-        // return -ENOTSUP;
-        return NULL;
+        // LOG_WRN(ENOTSUP);
+        return -ENOTSUP;
+        // return 0;
     }
 
     return api->codepoint_to_binding(charmap, codepoint, binding);
